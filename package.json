@@ -1,0 +1,34 @@
+{
+  "name": "es6-karma-jasmine-webpack-angular-boilerplate",
+  "version": "1.0.0",
+  "description": "a simple boilerplate",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack --config ./webpack.config.js",
+    "serve": "webpack-dev-server",
+    "start": "npm run build && npm run serve",
+    "test": "test"
+  },
+  "keywords": [
+    "es6",
+    "karma",
+    "jasmine",
+    "angular",
+    "webpack"
+  ],
+  "author": "francesco.greppi@gmail.com",
+  "license": "MIT",
+  "dependencies": {},
+  "devDependencies": {
+    "angular": "^1.6.2",
+    "angular-ui-router": "^0.4.2",
+    "angular-mocks": "^1.6.2",
+    "babel-loader": "^6.3.2",
+	"css-loader": "^0.26.2",
+    "style-loader": "^0.13.2",
+    "node-sass": "^4.5.0",
+    "sass-loader": "^6.0.2",
+	"webpack": "^2.2.1",
+    "webpack-dev-server": "^2.4.1"
+  }
+}

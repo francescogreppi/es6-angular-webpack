@@ -1,0 +1,26 @@
+<div class="grid">
+    <div class="row">
+        <div class="col-large-12">
+            <div class="content-box">
+                <table>
+					<thead>
+						<th>DD-MM-YYYY</th>
+						<th>Counterparty Name</th>
+						<th>Payment Type</th>
+						<th>Amount</th>
+						<th>Files</th>
+					</thead>
+					<tbody>
+						 <tr ng-repeat="item in transactionCtrl.list">
+							<td>{{ item.created_at | date:'dd-MM-yyyy' }}</td>
+							<td>{{ item.counterparty_name }}</td>
+							<td>{{ item.operation_type }}</td>
+							<td>{{ item.amount }}</td>
+							<td> <a ng-href="{{item.attachements.url}}">Download attachement</a></td>
+						</tr>
+					</tbody>
+				</table>
+            </div>
+        </div>
+    </div>
+</div>
