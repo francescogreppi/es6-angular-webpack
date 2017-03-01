@@ -1,3 +1,6 @@
 export class HomeController {
-    constructor(){}
+    //home logic here
+    constructor(){
+     
+    }
 }
