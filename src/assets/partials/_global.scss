@@ -1,0 +1,49 @@
+body{
+    margin:0px;
+    background-color: $grey;
+}
+.nav{
+    position:fixed;
+    top:0px;
+    width:250px;
+    height:100%;
+    color: $dark-grey;
+    &.left{
+      left:0px;
+      background-color:rgba(1, 14, 35, 0.9);
+    }
+    &.right{
+      right:0px;
+      background-color:rgba(255, 255, 255, 0.9);
+    }
+    h3{
+        margin-bottom:40px;
+        padding-left:40px;
+    }
+    ul{
+        padding:40px;
+        border-bottom: 2px solid $dark-grey;
+        li{
+            list-style-type:none;
+        }
+    }
+}
+.head{
+    background-color: $yellow;
+    height:80px;
+}
+.content-box{
+        margin:10px;
+        padding:60px 15px;
+        text-align:center;
+        table{
+            border-collapse: collapse;
+            margin: 0 auto;
+            td,th{
+                padding:20px 10px;
+            }
+            tr{
+                border-bottom:1px solid $dark;
+            }
+        }
+    }
